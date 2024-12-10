@@ -1,0 +1,11 @@
+name: arjun-workflow
+on: workflow_dispatch
+jobs:
+  first-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Welcome
+        run: echo "Hello Welcome"
+      - name: Print Bye
+        run: echo "Thanks for coming"
+        
