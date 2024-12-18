@@ -1,5 +1,7 @@
 '''This is simple unit test comparison
 '''
+# pylint: disable=C0116
+# pylint: disable=W0105
 def capital_case(x):
     return x.capitalize()
 
